@@ -3,6 +3,9 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+## Note
+- The reflection (report) file that answering all the questions on the rubric is in `reflection.md`. However, if you have Jupyter Notebook installed it is recommended to look at `reflection.ipynb`. I used LaTeX to write equations when I describe my model, and Jupyter Notebook can render LaTeX correctly.
+
 ## Dependencies
 
 * cmake >= 3.5
