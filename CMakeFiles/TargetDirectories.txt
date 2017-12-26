@@ -1,0 +1,3 @@
+/Users/tanwang/Downloads/CarND-MPC-Project-master/CMakeFiles/mpc.dir
+/Users/tanwang/Downloads/CarND-MPC-Project-master/CMakeFiles/ALL_BUILD.dir
+/Users/tanwang/Downloads/CarND-MPC-Project-master/CMakeFiles/ZERO_CHECK.dir
