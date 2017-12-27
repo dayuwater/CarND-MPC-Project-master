@@ -168,12 +168,14 @@ int main() {
                     // the polynomial to be fit should be independent to delay
                     auto coeffs = polyfit(eptsx, eptsy, 3);
                     
-                    // rescale the steering value to fit it into [-25degree, 25degree]
-                    // also change the direction of the steering because the simulator uses an inverted angle scheme
-                    steering = steering * deg2rad(25) * -1;
+                   
+                    // change the direction of the steering because the simulator uses an inverted angle scheme
+                    steering = steering * -1;
                     
                     // determine the car's state at t=100ms using kinematic model
-                    double delay = 0.1;
+                    // although there is a processing and communication delay, it is neglectable on my computer
+                    // but this might be a problem on VM enviornments
+                    double delay = 0.1; // increase this if using VM
                     double projectedX = delay * v;
                     // y is still 0 at t=100ms
                     double projectedPsi = v/2.67 * steering * delay;
