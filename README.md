@@ -6,6 +6,8 @@ Self-Driving Car Engineer Nanodegree Program
 ## Note
 - The reflection (report) file that answering all the questions on the rubric is in `reflection.md`. However, if you have Jupyter Notebook installed it is recommended to look at `reflection.ipynb`. I used LaTeX to write equations when I describe my model, and Jupyter Notebook can render LaTeX correctly.
 
+- My code can drive the car at 50mph safely, but the MPC prediction is unstable when the car is turning consecutively. Therefore, the code still drives the car at 40mph, so that the MPC prediction is stable.
+
 ## Dependencies
 
 * cmake >= 3.5
